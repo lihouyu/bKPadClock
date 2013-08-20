@@ -1,6 +1,5 @@
 #include <msp430.h> 
 
-#include "74hc595_conf.h"
 #include "74hc595.h"
 #include "4d7s_display.h"
 

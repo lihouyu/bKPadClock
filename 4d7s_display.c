@@ -15,7 +15,6 @@
 
 #include "4d7s_display.h"
 
-#include "74hc595_conf.h"
 #include "74hc595.h"
 
 const unsigned char fD7S_digit_map[10] = {

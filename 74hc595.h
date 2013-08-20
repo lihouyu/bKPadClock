@@ -13,6 +13,13 @@
 #ifndef HC595_H_
 #define HC595_H_
 
+#define HC595_PDIR		P1DIR
+#define HC595_POUT		P1OUT
+#define HC595_DATA		BIT1
+#define HC595_CLOCK		BIT2
+#define HC595_LATCH		BIT3
+#define HC595_ENABLE	BIT0
+
 void HC595_latch_off();
 void HC595_latch_on();
 void HC595_shiftout (unsigned char val);

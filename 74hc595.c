@@ -12,7 +12,6 @@
 
 #include <msp430.h>
 
-#include "74hc595_conf.h"
 #include "74hc595.h"
 
 void HC595_latch_off() {
